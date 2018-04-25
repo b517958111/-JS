@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>水仙花数</title>
+</head>
+<body>
+    <script>
+    var num,i,x,y,z;
+    for(num=100;num<=1000;num++){
+        x=parseInt(num/100);
+        y=parseInt((num/10)%10);
+        z=parseInt(num%10);
+        i=(x*x*x)+(y*y*y)+(z*z*z);
+        if(num == i){
+            document.write(i+"<br/>");
+        }
+    }
+// 	填写代码
+	</script>
+</body>
+</html>
