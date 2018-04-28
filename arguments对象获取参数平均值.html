@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>arguments</title>
+</head>
+<body>
+    <script>
+		function getAve(){
+		    var sum=0,len=arguments.length,i=0,avg;
+		    for(i=0;i<len;i++){
+		        sum+=arguments[i];
+		    }
+		        return sum/len;  
+		}
+		avg=getAve(1,2,4,6,8,9);
+		document.write(parseInt(avg));
+	</script>
+</body>
+</html>
