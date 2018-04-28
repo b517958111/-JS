@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>splice</title>
+</head>
+<body>
+<script>
+    function myFun(){
+        var array=[];
+        var b=0;
+        while( i != "-1"){
+            var i=prompt("请输入任意你想输的字符");
+            array[b]=i;
+            b++;
+        }
+        array.splice(0,2,"hello");
+        array.pop();
+        document.write(array);
+    }
+    myFun();
+   //补充代码
+</script>
+</body>
+</html>
